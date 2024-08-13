@@ -254,6 +254,43 @@ li > a {
 
 
 
-@media screen and (min-width: 50rem) {
+@media screen and (max-width: 50rem) {
+
+    .parallax-text {
+        height: 100vh;
+        padding-right: 2rem;
+    }
+
+    .shop-our-favourites h2 {
+        font-size: 80px;
+    }
+
+    .card {
+        flex: 0 0 35rem;
+    }
+
+    footer {
+        font-size: 25px;
+    }
+
+    .newsletter-header {
+        max-width: 35rem;
+    }
+
+    input[type="email"] {
+        width: 350px;
+    }
+
+    .newsletter {
+        display: block;
+        margin: 0 2rem;
+    }
+
+    .footer-nav {
+        margin: 0 2rem;
+        display: block;
+        font-size: 30px;
+        font-weight: 200;
+    }
 
 }
